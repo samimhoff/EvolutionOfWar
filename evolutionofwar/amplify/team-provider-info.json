@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-evolutionofwar-dev-144603-authRole",
+      "UnauthRoleArn": "arn:aws:iam::294330160471:role/amplify-evolutionofwar-dev-144603-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::294330160471:role/amplify-evolutionofwar-dev-144603-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-evolutionofwar-dev-144603-deployment",
+      "UnauthRoleName": "amplify-evolutionofwar-dev-144603-unauthRole",
+      "StackName": "amplify-evolutionofwar-dev-144603",
+      "StackId": "arn:aws:cloudformation:us-east-1:294330160471:stack/amplify-evolutionofwar-dev-144603/87c8bdd0-bc57-11ed-af57-12ac8c2df705",
+      "AmplifyAppId": "d3oosmpxv5uvf2"
+    },
+    "categories": {
+      "function": {
+        "evolutionfunction": {
+          "deploymentBucketName": "amplify-evolutionofwar-dev-144603-deployment",
+          "s3Key": "amplify-builds/evolutionfunction-5863564a6f522f787364-build.zip"
+        },
+        "mapsApi": {
+          "deploymentBucketName": "amplify-evolutionofwar-dev-144603-deployment",
+          "s3Key": "amplify-builds/mapsApi-5a494951527a6d64652b-build.zip"
+        }
+      },
+      "api": {
+        "evolutionapi": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3oosmpxv5uvf2",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

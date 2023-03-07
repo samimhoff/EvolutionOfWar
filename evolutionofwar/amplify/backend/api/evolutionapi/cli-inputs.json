@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/entries/{entryId}": {
+      "name": "/entries/{entryId}",
+      "lambdaFunction": "evolutionfunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/maps/{mapsId}": {
+      "name": "/maps/{mapsId}",
+      "lambdaFunction": "mapsApi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
